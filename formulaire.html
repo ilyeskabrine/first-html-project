@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Mon premier formulaire</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <table>
+             <h1> Votre Avis Nous Intéresse </h1>
+             
+            <tr>
+                <td>
+                    
+           
+              <form id="for_1">
+                  
+                <fieldset> 
+                <legend>Informations Personnelles</legend>
+                <label >1.Nom :</label>
+                 <input type="text" id="nom" name="nom" ><br>
+                 <label >2.Date de naissance :</label>
+                 <input type="date" id="date_" name="date_" value=""><br>
+                 <label >3.Site :</label>
+                 <input type="text" id="site" name="site" placeholder="https://example.com" pattern="https://.*" size="30" ><br>
+                 <label >4.Emploi :</label>
+                 <select>
+                     <option>Etudiant</option>
+                     <option>Administrateur reseau</option>
+                     <option>Developeur web</option>
+                     <option>Web designer</option>
+                     <option>DevOps</option>
+                 </select>
+                 <br>
+                 <label >5.Approx Salaire annuel :</label><br>
+                 <input min="" max="" step="1000" type="number" id="salaire" name="salaire" placeholder="$" value=""><br>
+                </fieldset>
+            </form>
+                    
+                    
+                </td>
+            <td>
+            
+                <fieldset> 
+                 <legend>Informations de contact</legend>
+            <form>
+               
+                <label >1.Adresse ligne 1 :</label><br>
+                 <input type="text" id="addrs1" name="addrs1" ><br>
+                 <label >2.Adresse ligne 2 :</label><br>
+                 <input type="text" id="addrs2" name="addrs2" value=""><br>
+                 <label >3.Pays :</label>
+                 <select>
+                     <option>Algerie</option>
+                     <option>Tunisie</option>
+                     <option>Maroc</option>
+                     
+                 </select>
+                 <br>
+                 <label >4.Tél :</label>
+                 <input type="text" id="site" name="site" placeholder="eg :+213 67.."   ><br>
+                 
+                 <label >5.Courriel :</label>
+                 <input type="text" id="email" name="email" value=""><br>
+                
+                
+            </form>
+            
+             </fieldset>
+            </td>
+        </tr>   
+        </table>
+        
+        <h2> préférence </h2>
+        
+        <label >Choisir une couleur :</label>
+         <input type="color" id="color_" name="color" value="#000000"><br>
+         
+         
+        <label >Sur une ecchelle de 1 a 10 , quel est votre degré d'enthousiasme pour HTML5 ?</label>
+        <input min="0" max="10" step="0.5" type="range" id="range_" name="range_" value="5"><br>
+        
+        
+        <input  type="submit" id="" name="" value="Envoyer"><br>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </body>
+</html>
